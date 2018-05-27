@@ -1,0 +1,11 @@
+D:\VS test project\WinFormDevEx\WinFormDevEx\bin\Debug\WinFormDevEx.exe.config
+D:\VS test project\WinFormDevEx\WinFormDevEx\bin\Debug\WinFormDevEx.exe
+D:\VS test project\WinFormDevEx\WinFormDevEx\bin\Debug\WinFormDevEx.pdb
+D:\VS test project\WinFormDevEx\WinFormDevEx\obj\Debug\WinFormDevEx.Form1.resources
+D:\VS test project\WinFormDevEx\WinFormDevEx\obj\Debug\WinFormDevEx.Properties.Resources.resources
+D:\VS test project\WinFormDevEx\WinFormDevEx\obj\Debug\WinFormDevEx.csproj.GenerateResource.Cache
+D:\VS test project\WinFormDevEx\WinFormDevEx\obj\Debug\WinFormDevEx.exe.licenses
+D:\VS test project\WinFormDevEx\WinFormDevEx\obj\Debug\WinFormDevEx.exe
+D:\VS test project\WinFormDevEx\WinFormDevEx\obj\Debug\WinFormDevEx.pdb
+D:\VS test project\WinFormDevEx\WinFormDevEx\bin\Debug\EntityFramework.dll
+D:\VS test project\WinFormDevEx\WinFormDevEx\bin\Debug\EntityFramework.xml

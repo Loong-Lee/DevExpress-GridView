@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sampleModelStoreContainer" CdmEntityContainer="sampleEntities">
+    <EntitySetMapping Name="TB_TEST">
+      <EntityTypeMapping TypeName="sampleModel.TB_TEST">
+        <MappingFragment StoreEntitySet="TB_TEST">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ASSET_NAME" ColumnName="ASSET_NAME" />
+          <ScalarProperty Name="ASSET_TYPE" ColumnName="ASSET_TYPE" />
+          <ScalarProperty Name="Premiere_Date" ColumnName="Premiere_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

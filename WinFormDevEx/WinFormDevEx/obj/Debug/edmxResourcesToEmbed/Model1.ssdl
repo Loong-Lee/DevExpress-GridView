@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sampleModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="sampleModelStoreContainer">
+    <EntitySet Name="TB_TEST" EntityType="sampleModel.Store.TB_TEST" store:Type="Tables" store:Schema="dbo" store:Name="TB_TEST">
+      <DefiningQuery>SELECT 
+      [TB_TEST].[ID] AS [ID], 
+      [TB_TEST].[ASSET_NAME] AS [ASSET_NAME], 
+      [TB_TEST].[ASSET_TYPE] AS [ASSET_TYPE], 
+      [TB_TEST].[Premiere_Date] AS [Premiere_Date]
+      FROM [dbo].[TB_TEST] AS [TB_TEST]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'Sample.dbo.TB_TEST' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="TB_TEST">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="ASSET_NAME" />
+      <PropertyRef Name="ASSET_TYPE" />
+    </Key>
+    <Property Name="ID" Type="numeric" Nullable="false" />
+    <Property Name="ASSET_NAME" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ASSET_TYPE" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Premiere_Date" Type="date" />
+  </EntityType>
+</Schema>
